@@ -355,9 +355,6 @@ ul{
 .info-menu:nth-child(3n){
     margin-right: 0px;
 }
-.info-menu:nth-child(-n + 3){
-
-}
 .container-menu{
     padding: 20px 24px;
 }

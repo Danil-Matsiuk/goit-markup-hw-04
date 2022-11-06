@@ -139,6 +139,11 @@ a{
     color: var(--accent-color);
 }
 
+.header-contacts .contact-icn:focus,
+.header-contacts .contact-icn:hover{
+    fill:var(--accent-color);
+}
+
 /* SVG PICTURES IN HEADER */
 .contact-info .link.header-contacts{
     display: flex;
@@ -146,10 +151,11 @@ a{
     gap:  10px;
     fill: var(--primary-text-color);
 }
-.contact-icn:hover,
-.contact-icn:focus{
+.header-contacts:hover,
+.header-contacts:focus{
     fill: var(--accent-color);
 }
+
 
 
 .about

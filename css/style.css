@@ -220,6 +220,9 @@ box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 /* TEXT-INF */
 .advantages-block{
+    justify-content: center;
+    align-items: center;
+    display: flex;
     width: 270px;
     height: 120px;
 
@@ -227,9 +230,8 @@ box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
     background-color:var(--advantages-color)
 }
-.advantages-icn{
-    margin: 25px 100px;
-}
+
+
 .text-inf{
     display: block;
 }
@@ -318,7 +320,7 @@ box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 
 }
 .footer-icon{
-    margin: 0px 0px 0px 70px;
+    fill: var(--white);
 }
 .social-box{
     margin-top: 20px;
@@ -334,8 +336,11 @@ box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 .social-links:hover,
 .social-links:focus{
     background-color:var(--accent-color);
+    fill: var(--white);
 }
-.social-links:hover .network-icon{
+/* a svg */
+.social-links:hover .network-icon,  
+.social-links:focus .network-icon{
     fill: var(--white);
 }
 .social-net{
@@ -345,8 +350,12 @@ box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
     padding: 16px 32px 0px 32px;
 }
 .network-icon{
-    fill: var(--social-media-icon);
+    fill: var(--social-media-icon)
 }
+.network-footer{
+    fill: var(--white);
+}
+
 .network-icon-static{
     fill: var(--white);
 }
@@ -536,14 +545,18 @@ box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
     margin-bottom: 0px;
 }
 
-.info-menu:hover,
-.info-menu:focus{
-    border: 1px solid var(--color-project-border);
-    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
-    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+.portfolio-link{
+    display: block;
+}
+.portfolio-link:hover,
+.portfolio-link:focus{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 }
+
+
+
+
 
 .info-menu:nth-child(3n){
     margin-right: 0px;

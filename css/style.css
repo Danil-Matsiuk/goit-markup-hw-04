@@ -151,8 +151,8 @@ a{
     gap:  10px;
     fill: var(--primary-text-color);
 }
-.header-contacts:hover,
-.header-contacts:focus{
+.header-contacts:hover .contact-icon,
+.header-contacts:focus .contact-icon{
     fill: var(--accent-color);
 }
 
@@ -551,7 +551,6 @@ box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 .portfolio-link:hover,
 .portfolio-link:focus{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
 }
 
 

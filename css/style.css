@@ -6,6 +6,7 @@
     --social-media-icon:#AFB1B8;
     --white: #FFFFFF;
     --color-project-border: rgba(238, 238, 238, 1);
+    --icon-footer:rgba(255, 255, 255, 0.1);
 } 
 html{
     box-sizing: border-box;
@@ -323,7 +324,7 @@ box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
     fill: var(--white);
 }
 .social-box{
-    margin-top: 20px;
+    margin-left: 70px;
 }
 .social-links{
     width: 44px;
@@ -338,6 +339,9 @@ box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
     background-color:var(--accent-color);
     fill: var(--white);
 }
+.footer-icon{
+    background-color: var(--icon-footer);
+}
 /* a svg */
 .social-links:hover .network-icon,  
 .social-links:focus .network-icon{
@@ -347,7 +351,9 @@ box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
     display: flex;
     gap: 10px;
     justify-content: center;
-    padding: 16px 32px 0px 32px;
+    margin-top: 20px;
+
+
 }
 .network-icon{
     fill: var(--social-media-icon)
@@ -506,15 +512,14 @@ box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
     color: #2196F3;
 }
 .title-socials{
-    margin-left: 70px;
     font-family: 'Roboto';
-    font-weight: 700;
-    line-height: 0.9;
-    color: var(--white);
-    font-size: 15px;
-    text-transform: uppercase;
     font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0.9;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white);
 }
 .parrent-adress{
     display: flex;
@@ -529,6 +534,7 @@ box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: baseline;
 }
+
 /* Second page */
 .page-header{
     border-bottom: 1px solid #ececec;
